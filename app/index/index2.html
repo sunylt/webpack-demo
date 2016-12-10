@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack Sample Project</title>
+    <script src="./loader.js"></script>
+    <script>
+      Loader.loadMap('./map.json');
+      Loader.loadCss('index');
+    </script>
+    
+  </head>
+  <body>
+  
+  <div class="outline">
+   <h1>WebPack是什么</h1>
+   <ul>
+    <li>1.一个打包工具</li>
+    <li>2.一个模块加载工具</li>
+    <li>3.各种资源</li>
+    <li>4.网站<a href="#">http://webpack.gihub.io/</a></li>
+   </ul>
+  </div>
+  
+  <div id="root">
+  </div>
+
+  
+  <script>
+    Loader.loadJs('vendor');
+    Loader.loadJs('index');
+    Loader.loadJs('detail');
+  </script>
+  
+  </body>
+</html>

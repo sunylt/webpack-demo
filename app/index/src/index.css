@@ -1,0 +1,52 @@
+.logo,.nav,.nav li,.search,.sign{
+  float: left;
+}
+  header{
+    overflow: hidden;
+    border-bottom: 1px solid red;
+  }
+  
+  header:after{
+    content:  '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  
+    .outline{
+      width: 620px;
+      margin: 0 auto;
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .outline h1{
+      font-size: 24px;
+      font-weight: bold;
+      text-indent: 15px;
+    }
+    
+    .outline ul{
+      border-left: 4px solid #999;
+      background-color: whitesmoke;
+      padding: 15px 0 15px 15px;
+      list-style: none;
+    }
+    
+    .outline li{
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    
+    .outline li:last-child{
+      margin-bottom: 0;
+    }
+    
+    .outline li a{
+      margin-left: 5px;
+      text-decoration: none;
+      color: green;
+    }

@@ -1,0 +1,12 @@
+{
+  "detail": {
+    "js": "/dest/detail.184710baedde9b4c4de2.js"
+  },
+  "index": {
+    "js": "/dest/index.29488ebc7c9e4dce2378.js",
+    "css": "/dest/index.623b3a5cbb02587a4b4456b1cecfbb4f.css"
+  },
+  "vendor": {
+    "js": "/dest/vendor.a2d04a10d3bb983a59b2.js"
+  }
+}
